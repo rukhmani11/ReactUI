@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.css-fxbtpg {
+  height: auto !important;
+  background-color: inherit !important;
+}
+
+.nav-link {
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
+.nav-btn {
+  background-color: inherit !important;
+  color: white !important;
+  text-transform: none !important;
+}
+
+/* 
+.MuiCard-root {
+  border-top: 3px solid #345781;
+  margin-bottom: 10px;
+} */
+
+.MuiMenuItem-root {
+  font-size: 0.9rem !important;
+}
+
+.MuiTabPanel-root {
+  padding: 5px !important;
+}
+
+/* .dvGrid {
+  height: 500px;
+  width: 100% ;
+} */
+
+.css-aq1gdx-MuiDrawer-docked .MuiDrawer-paper {
+  width: 56px !important;
+}
+
+.css-cveggr-MuiListItemIcon-root {
+  min-width: 40px !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 1.2rem !important;
+}
+
+.MuiListItemButton-root {
+  min-height: 20px !important;
+}
+
+.MuiContainer-root {
+  max-width: 100% !important;
+}
+
+.MuiListItemText-root>.MuiTypography-root {
+  font-size: 14px !important;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  display: block;
+  width: 100%;
+}
+
+.dvGrid {
+  /* height: 425px; */
+  width: 100%;
+}
+
+#spnRole {
+  font-size: 12px;
+}
+
+#spnRole::before {
+  content: "\a";
+  white-space: pre;
+}
+
+.palette {
+  padding: 21px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.gridImg {
+  width: 45px;
+  height: 25px;
+}
+
+.dvImg{
+  width: 208px;
+  height: 83px;
+}
+
+.meetingDialog{
+  width: 100% !important;
+}

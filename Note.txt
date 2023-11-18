@@ -1,0 +1,17 @@
+When sending Date to api, convert Date in DatePicker control. As its taking 5.30 hours earlier
+ handleInputChange({
+                          target: {
+                            value: globalService.convertLocalToUTCDate(date, true),
+                            name: "ScheduledOn",
+                          },
+                        })
+================================================================================
+When it has time also then don't call globalService method as the display time value is changing to -5.30 hours
+ handleInputChange({
+                          target: {
+                            value: date,
+                            name: "ScheduledOn",
+                          },
+                        })
+Then in api call 
+payload.ScheduledOn = globalService.convertLocalToUTCDate(payload.ScheduledOn, true);
